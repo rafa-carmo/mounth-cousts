@@ -38,7 +38,7 @@ export default function RootLayout({
 				>
 					<Header />
 					<Sidebar />
-					<main className="flex md:ml-48 mt-16 p-5 flex-wrap gap-10 overflow-y-auto overflow-x-hidden">
+					<main className="flex md:ml-48 mt-36 p-5 flex-wrap gap-10 overflow-y-auto overflow-x-hidden">
 						{children}
 					</main>
 				</ThemeProvider>
